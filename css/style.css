@@ -95,7 +95,43 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
+
+.btn-all {
+    background: var(--main-bg-color);
+    border-radius: 4px;
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+}
+
+.btn-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.all-list {
+    background: #F5F4FA;
+    border-radius: 4px;
+    list-style: none;
+}
+
+.list-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: var(--color-b);
+
+}
+
 /* скрытое поле */
+
 .heading {
     text-indent: 100%;
     white-space: nowrap;
@@ -121,6 +157,32 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* section portfolio */
+
+.portfolio-list {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    list-style: none;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--color-b);
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+}
+
 /* section img */
 
 .section-heading {
@@ -178,6 +240,10 @@ body {
 
 .footer {
     background:  #2F303A;
+}
+
+.footer-logo {
+    color: #FFFFFF;
 }
 
 .footer-list {
