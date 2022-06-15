@@ -20,10 +20,12 @@ body {
   /* styling header */
 
 .link-logo {
-    font-weight: 700;
+    font-family: 'Raleway';
+    font-weight: 700;                         
     font-size: 26px;
     line-height: 1.19;
     color: var(--color-b);
+    letter-spacing: var(--letter-spacing);
     text-decoration: none;
 }
 
